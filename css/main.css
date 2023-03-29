@@ -67,6 +67,10 @@ img {
   padding-right: 0;
 }
 
+.freehosting-2domains-link {
+  display: none;
+}
+
 @font-face {
   font-family: "Golos Text";
   src: local("Golos Text"), url("../fonts/GolosText-Regular.woff2") format("woff2"), url("../fonts/GolosText-Regular.woff") format("woff");
