@@ -1,0 +1,28 @@
+.input {
+  padding-top: 11px;
+  padding-bottom: 11px;
+  font-family: $golos;
+  font-weight: $regular;
+  font-size: $text-l-size;
+  color: $main-color-text;
+
+  &::placeholder {
+    color: $placeholder-color-text;
+  }
+
+  // input--textarea
+  &--textarea {
+    resize: none;
+    min-height: 84px !important;
+  }
+
+  // input--textarea-short
+  &--textarea-short {
+    min-height: 74px !important;
+  }
+
+  &:focus {
+    outline: 2px solid $main-green;
+    box-shadow: none;
+  }
+}

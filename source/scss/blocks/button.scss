@@ -1,0 +1,21 @@
+.button {
+  background-color: $main-green;
+  padding: 16px 24px;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease-out;
+
+  &:hover,
+  &:focus {
+    background-color: $main-green-hover;
+  }
+
+  &:active {
+    background-color: $main-green-active;
+  }
+
+  @media (max-width: $mobile-width) {
+    width: 100%;
+    padding: 9px 24px;
+  }
+}

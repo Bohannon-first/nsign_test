@@ -1,0 +1,60 @@
+// Типы шрифтов
+$golos: 'Golos Text', 'Verdana', sans-serif;
+$roboto: 'Roboto', 'Verdana', sans-serif;
+
+// Размеры шрифтов
+// Десктоп
+$main-title-desktop: 56px;
+$second-title-desktop: 44px;
+$third-title-desktop: 20px;
+
+// Планшет
+$second-title-tablet: 30px;
+$second-title-tablet-interlining: 45px;
+
+// Мобильник
+$main-title-mobile: 24px;
+$second-title-mobile: 18px;
+$third-title-mobile: 14px;
+
+// Обычный шрифт
+$text-l-size: 16px;
+$text-m-size: 14px;
+$text-s-size: 12px;
+
+// Начертание шрифта
+$regular: 400;
+$medium: 500;
+$bold: 700;
+
+// Интерлиньяж
+// Заголовки десктоп
+$main-title-desktop-interlining: 68px;
+$second-title-desktop-interlining: 56px;
+$third-title-desktop-interlining: 32px;
+
+// Заголовки мобильник
+$main-title-mobile-interlining: 32px;
+$second-title-mobile-interlining: 24px;
+$third-title-mobile-interlining: 18px;
+
+// Интерлиньяж обычного шрифта
+$text-l-size-interlining: 22px;
+$text-m-size-interlining: 18px;
+$text-s-size-interlining: 16px;
+
+// Цвета
+$main-white: #ffffff;
+$main-color-text: #132141;
+$placeholder-color-text: #a1a6b3;
+$border-color: #d0d3d9;
+$form-bgc: #f3f6fA;
+$link-mail-color: #10bd99;
+$form-title-color: #0E4Acd;
+$main-green: #10BD99;
+$main-green-hover: #33C599;
+$main-green-active: #3adbb9;
+
+// Брейкпоинты
+$tablet-width: 991px;
+$mobile-width: 767px;

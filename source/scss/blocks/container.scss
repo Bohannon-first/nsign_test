@@ -1,0 +1,12 @@
+.container {
+  max-width: 1020px;
+  padding-left: 5px;
+  padding-right: 5px;
+  transform: translateX(5px);
+
+  @media (max-width: $mobile-width) {
+    padding-left: 16px;
+    padding-right: 16px;
+    transform: translateX(0);
+  }
+}

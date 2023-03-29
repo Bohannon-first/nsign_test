@@ -1,0 +1,36 @@
+.text {
+  font-family: $golos;
+  font-weight: $regular;
+  font-size: $text-l-size;
+  line-height: $text-l-size-interlining;
+  color: $main-color-text;
+  transition: font-size, line-height 0.3s ease-out;
+
+  // text--announcemen
+  &--announcement {
+    background-color: $form-bgc;
+    font-weight: $bold;
+    font-size: $text-m-size;
+    line-height: $text-m-size-interlining;
+    border-radius: 12px;
+    padding: 24px 23px;
+
+    @media (max-width: $mobile-width) {
+      margin-bottom: 30px;
+    }
+  }
+
+  // text--accreditation
+  &--accreditation {
+    margin-top: 40px;
+
+    @media (max-width: $mobile-width) {
+      margin-top: 16px;
+    }
+  }
+
+  @media (max-width: $mobile-width) {
+    font-size: $text-m-size;
+    line-height: $text-m-size-interlining;
+  }
+}
